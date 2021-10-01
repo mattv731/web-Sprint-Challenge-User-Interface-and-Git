@@ -114,7 +114,6 @@ body {
 
 html,
 body {
-  /*height: 100%;*/
   font-family: "Roboto", sans-serif;
 }
 header {
@@ -140,3 +139,63 @@ header a {
   color: black;
   padding-right: 18%;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+#top {
+  border-bottom: 1px dashed black;
+  padding-bottom: 3.5%;
+  margin-bottom: 3.5%;
+}
+#top h1 {
+  padding: 3.5% 3.5% 0 3.5%;
+}
+#top p {
+  padding: 0% 3.5% 0 3.5%;
+}
+.learnmore {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.learnmore h2 {
+  padding: 3% 0;
+}
+.learnmore button {
+  padding: 2% 0;
+  margin: 6% 0 3% 0;
+  width: 120px;
+  border-radius: 10px;
+}
+.bottommiddle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.bottommiddle h2 {
+  padding: 3% 0;
+}
+.bottommiddle button {
+  padding: 2% 0;
+  margin: 6% 0 3% 0;
+  width: 120px;
+  border-radius: 10px;
+}
+
