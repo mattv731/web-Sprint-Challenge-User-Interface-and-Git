@@ -143,6 +143,7 @@ header {
   justify-content: left;
   flex-flow: wrap;
 }
+
 header nav {
   width: 60%;
   display: flex;
